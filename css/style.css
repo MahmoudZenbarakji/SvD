@@ -9,7 +9,7 @@ nav{
 ul{
    list-style-type: none;
    display: flex;
-   gap: 30px;
+   gap: 1.5rem;
    margin-top: 1.5rem;
    margin-left: 60rem;
 }
@@ -36,7 +36,7 @@ h6{
     gap: 30px
 }
 .para{
-    transform: rotate(30deg);
+    transform: rotate(-30deg);
 }
 .Process{
      margin-top: 12rem; 
@@ -49,8 +49,8 @@ h6{
     text-align: center;
 }
  table{
-   margin-left:40rem;
-   width: 100rem;
+   /* margin-left:40rem;*/
+   /* width: 100rem;  */
  }
 td{
     border: 0.5px solid grey;
@@ -61,28 +61,50 @@ caption{
     transform: rotate(90deg);
     float: right;
 }
-.Works{
+/* .Works{
     display:block;
     gap: 20rem;
     margin-top: 14rem;
-    background-color: red;
+    
     height: 600rem
-}
-.Zendrive{
+} */
+/* .Zendrive{
     color: white;
     margin-top: 12rem;
     margin-left: 15rem;
     
-}
-.workHeading{
-    max-width: 300px;
-}
-.CoreSite{
-    color: white    ;
-}
-.SearchIo{
+} */
+.WorkTilie{
+    transform: rotate(-90deg);
+    margin-bottom: 800px;
+ }
+ .Works{
+
+    display:flex;
+    align-items: center;
+     justify-content:center; 
+     gap: 90px;
+    flex-wrap: wrap;
+    margin-right: 160px;
     color: white;
 }
-.Whiteboard{
-    color: white;
+.Zendrive{
+    width:400px;
 }
+
+ .CoreSite{
+transform:translateY(60px) ;
+    width: 700px;
+    
+ 
+} 
+ .SearchIo{
+    width: 700px;
+    max-width:120px;
+  
+} 
+ .Whiteboard{
+
+    transform: translateY(60px)
+} 
+
