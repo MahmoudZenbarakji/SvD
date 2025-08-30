@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   gap: 30px;
+   margin-top: 1.5rem;
+   margin-left: 60rem;
+}
+.logo{
+    color: white;
+}
+header{
+    margin-top: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero-text{
+    max-width: 27%;
+    margin-left: 32rem;
+    color: white;
+    
+}
+h6{
+    text-align: center;
+}
+.Vectors{
+    gap: 30px
+}
+.para{
+    transform: rotate(30deg);
+}
+.Process{
+     margin-top: 12rem; 
+    display: flex;
+    color: white; 
+}
+
+#provessParagraph{
+    max-width: 140px;
+    text-align: center;
+}
+ table{
+   margin-left:40rem;
+   width: 100rem;
+ }
+td{
+    border: 0.5px solid grey;
+    margin-top: 00px;
+    text-align: center;
+}
+caption{
+    transform: rotate(90deg);
+    float: right;
+}
+.Works{
+    display:block;
+    gap: 20rem;
+    margin-top: 14rem;
+    background-color: red;
+    height: 600rem
+}
+.Zendrive{
+    color: white;
+    margin-top: 12rem;
+    margin-left: 15rem;
+    
+}
+.workHeading{
+    max-width: 300px;
+}
+.CoreSite{
+    color: white    ;
+}
+.SearchIo{
+    color: white;
+}
+.Whiteboard{
+    color: white;
+}
